@@ -4,8 +4,8 @@ import { Section } from '@/layout/Section';
 
 const Sponsors = () => (
   <Section
-    title="Sponsors"
-    description="Our sponsors' exceptional support has made this project possible."
+    title="专业的球类运动改善工具"
+    description="业余选手也可以享受到如职业运动员一般，有着专业教练和数据团队同样效果的训练指导。"
   >
     <table className="mx-auto border-collapse">
       <tbody>

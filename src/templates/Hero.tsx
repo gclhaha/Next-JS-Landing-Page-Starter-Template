@@ -22,7 +22,7 @@ const Hero = () => (
         title={
           <>
             {'专业、有趣的球类运动改善工具\n'}
-            <span className="text-primary-500">提高球技，一战成名</span>
+            <span className="text-[#F33A4C]">提高球技，一战成名</span>
           </>
         }
         description="前10000名用户免费赠送永久会员"

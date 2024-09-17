@@ -7,11 +7,11 @@ import { Section } from '../layout/Section';
 const Banner = () => (
   <Section>
     <CTABanner
-      title="内测用户终身免费"
-      subtitle="仅限500名"
+      title="上海必辉科技有限公司"
+      subtitle="leep@b7e.fun"
       button={
         <Link href="/">
-          <Button>获取加群二维码</Button>
+          <Button>联系我们</Button>
         </Link>
       }
     />

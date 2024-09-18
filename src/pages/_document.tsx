@@ -9,7 +9,7 @@ class MyDocument extends Document {
     return (
       <Html lang={AppConfig.locale}>
         <Head>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/leep-ico.ico" />
         </Head>
         <body>
           <Main />

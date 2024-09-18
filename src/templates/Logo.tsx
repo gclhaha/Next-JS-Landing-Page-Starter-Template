@@ -5,7 +5,7 @@ type ILogoProps = {
 };
 
 const Logo = (props: ILogoProps) => {
-  const size = props.xl ? '44' : '32';
+  const size = props.xl ? '44' : '44';
   const fontStyle = props.xl
     ? 'font-semibold text-3xl'
     : 'font-semibold text-xl';
@@ -13,7 +13,7 @@ const Logo = (props: ILogoProps) => {
   return (
     <span className={`inline-flex items-center text-gray-900 ${fontStyle}`}>
       <img
-        src="/assets/images/favicon-32x32.png"
+        src="/leep-rect.jpg"
         alt={AppConfig.site_name}
         width={size}
         height={size}

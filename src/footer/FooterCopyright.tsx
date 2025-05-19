@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import { AppConfig } from '../utils/AppConfig';
 
 const FooterCopyright = () => (
@@ -21,6 +23,9 @@ const FooterCopyright = () => (
         }
       `}
     </style>
+    <span style={{ marginLeft: '1rem' }}>
+      <Link href="/privacy">隐私协议</Link>
+    </span>
   </div>
 );
 
